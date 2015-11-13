@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xaut.tsupervise"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hs"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xaut.tsupervise.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.FirstPage"
+            android:label="@string/title_activity_first_page" >
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.Chart"
+            android:label="@string/title_activity_chart" >
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.Table"
+            android:label="@string/title_activity_table" >
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.Alarm"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.ChartShow"
+            android:label="@string/title_activity_chart_show" >
+        </activity>
+        <activity android:name="com.xaut.tsupervise.Humidity" >
+        </activity>
+        <activity android:name="com.xaut.tsupervise.Gas" >
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.TableNew"
+            android:label="@string/title_activity_table_new" >
+        </activity>
+        <activity
+            android:name="com.xaut.tsupervise.AlarmNew"
+            android:label="@string/title_activity_alarm_new" >
+        </activity>
+    </application>
+
+</manifest>

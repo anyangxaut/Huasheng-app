@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">果业技术服务</string>
+    <string name="title">果业技术服务</string>
+    <string name="action_settings">设置</string>
+    <string name="logo_text">果业技术服务</string>
+    <string name="about">关于</string>
+    <string name="aboutcontent">延安华圣三农科技服务有限公司隶属陕西华圣企业（集团）股份有限公司果业公司。是一家以苹果采购、农技服务、农资服务为主的综合性农业服务企业。公司成立5年来在提高广大果农的果品商品率， 增加果农经济收益，带动“六县一区”（洛川、黄陵、黄龙、宜川、延长、富县、宝塔区）苹果产业化的发展起到积极的促进作用。延安华圣三农科技服务有限公司现有队伍810人，其中管理技术人员90人，基层工作人员720人。业务覆盖陕北“六县一区”70余个苹果主产乡镇，1200多个行政村，建立了三个县级总站和87个乡级服务站，服务农户15万余户。</string>
+    <string name="help">帮助</string>
+    <string name="helpcontent">果业app帮助相关信息显示</string>
+    <string name="huashengnews">行业新闻</string>
+    <string name="agriculturalnews">农业新闻</string>
+    <string name="techmethod">技术方案</string>
+    <string name="firstpage">首页</string>
+    <string name="techguide">技术指导</string>
+    <string name="Standard">规范与标准</string>
+    <string name="Expert">专家介绍</string>
+    <string name="ShiYongJiShu">实用技术</string>
+    <string name="NongZiJieShao">农资介绍</string>
+    <string name="ChemicalFertilizer">化肥</string>
+    <string name="Pesticide">农药</string>
+    <string name="zhengxing">整形修剪</string>
+    <string name="FeiShui">肥水管理</string>
+    <string name="FruitStore">果品储藏</string>
+    <string name="VarietyIntro">品种介绍</string>
+    <string name="InsectControl">病虫害防治</string>
+    <string name="base">baseactivity</string>
+    <string name="Weather">天气预报</string>
+    <string name="ipsetting">请设置WEB服务器端IP地址：</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="start">起始日期：</string>
+    <string name="end">结束日期：</string>
+    <string name="day">一天</string>
+    <string name="week">一周</string>
+    <string name="month">一月</string>
+
+
+</resources>

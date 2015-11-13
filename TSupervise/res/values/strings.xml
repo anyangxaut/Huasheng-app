@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">华圣果业气调库</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">华圣果业气调库</string>
+    <string name="title_activity_first_page">气调库首页</string>
+    <string name="aboutcontent">延安华圣三农科技服务有限公司隶属陕西华圣企业（集团）股份有限公司果业公司。是一家以苹果采购、农技服务、农资服务为主的综合性农业服务企业。公司成立5年来在提高广大果农的果品商品率， 增加果农经济收益，带动“六县一区”（洛川、黄陵、黄龙、宜川、延长、富县、宝塔区）苹果产业化的发展起到积极的促进作用。延安华圣三农科技服务有限公司现有队伍810人，其中管理技术人员90人，基层工作人员720人。业务覆盖陕北“六县一区”70余个苹果主产乡镇，1200多个行政村，建立了三个县级总站和87个乡级服务站，服务农户15万余户。</string>
+    <string name="helpcontent">华圣果业app帮助相关信息显示</string>
+    <string name="ipsetting">请设置WEB服务器端IP地址：</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_activity_chart">实时曲线</string>
+    <string name="title_activity_table">实时表格</string>
+    <string name="title_activity_alarm">报警信息</string>
+    <string name="title_activity_chart_show">实时曲线</string>
+    <string name="wendu">温度</string>
+    <string name="qiti">气体</string>
+    <string name="shidu">湿度</string>
+    <string name="title_activity_table_new">实时表格</string>
+    <string name="title_activity_alarm_new">报警信息</string>
+
+</resources>

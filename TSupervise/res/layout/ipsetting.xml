@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" 
+            android:layout_marginTop="150dip"/>
+      
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ipsetting"
+        android:layout_marginLeft="40dip"
+        android:textColor="#000000" 
+        android:textSize="15sp"
+        android:layout_marginTop="10dip"/>
+    
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" 
+            android:layout_marginTop="15sp"/>
+    
+    <EditText 
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/ip"
+        android:layout_marginLeft="30dip"/>
+    
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" 
+            android:layout_marginTop="15sp"/>
+     
+     <LinearLayout  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    
+    <Button 
+        android:id="@+id/ok"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_marginLeft="40dip"/>
+    
+        <Button 
+        android:id="@+id/cancel"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_marginLeft="40dip"/>
+    
+    </LinearLayout>
+</LinearLayout>

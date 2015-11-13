@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xaut.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hs"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xaut.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xaut.activity.HuaShengNews"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ShowNews"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ShowNewsMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.AgriculturalNews"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.AgriculturalShowNewsMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.FirstPage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.TechMethod"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.TechMethodMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.TechGuide"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.TechGuideMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Standard"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.StandardMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Expert"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ExpertMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ShowExpert"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ShiYongJiShu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.NongZiJieShao"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ChemicalFertilizer"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Pesticide"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.PesticideMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ChemicalFertilizerMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ZhengXing"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ZhengXingMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.FeiShui"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.FeiShuiMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.FruitStore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.VarietyIntro"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.InsectControl"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.FruitStoreMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.InsectControlMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.VarietyIntroMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.BaseActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Weather"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xaut.activity.ShowWeather"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.xaut.activity.Qtktest">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Humidity">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Gas">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.Qtkshow">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.QtkHistory">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.QtkTable">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.GasHistory">
+        </activity>
+        <activity
+            android:name="com.xaut.activity.HumidityHistory">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+</manifest>
